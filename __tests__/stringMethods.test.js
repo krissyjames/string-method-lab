@@ -11,8 +11,8 @@ const {
     ['getCharAt', getCharAt, '', 1, 'String is empty'],
   
     // concatenateStrings tests (valid and invalid)
-    // ['concatenateStrings', concatenateStrings, 'hello', 'world', 'helloworld'],
-    // ['concatenateStrings', concatenateStrings, 12345, 'world', 'Value given to function was of Data Type: number'],
+    ['concatenateStrings', concatenateStrings, 'hello', 'world', 'helloworld'],
+    ['concatenateStrings', concatenateStrings, 12345, 'world', 'Value given to function was of Data Type: number'],
     
     // // doesInclude tests (valid and invalid)
     // ['doesInclude', doesInclude, 'hello world', 'world', true],
