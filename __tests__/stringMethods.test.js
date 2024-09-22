@@ -30,9 +30,9 @@ const {
     ['sliceString', sliceString, '', 0, 5, 'String is empty'],
   
     // // splitString tests (valid and invalid)
-    // ['splitString', splitString, 'hello world', ' ', ['hello', 'world']],
-    // ['splitString', splitString, 12345, ' ', 'Value given to function was of Data Type: number'],
-    // ['splitString', splitString, '', ' ', 'String is empty'],
+    ['splitString', splitString, 'hello world', ' ', ['hello', 'world']],
+    ['splitString', splitString, 12345, ' ', 'Value given to function was of Data Type: number'],
+    ['splitString', splitString, '', ' ', 'String is empty'],
   
     // // convertToLowerCase tests (valid and invalid)
     // ['convertToLowerCase', convertToLowerCase, 'HELLO', null, 'hello'],
