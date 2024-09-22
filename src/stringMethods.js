@@ -76,6 +76,16 @@ function convertToLowerCase(string) {
     }
 }
 
+function convertToUpperCase(string) {
+    if ((typeof string === 'string') && (string !== "")) {
+        return string.toUpperCase();
+    } else if (typeof string !== 'string') {
+        return `Value given to function was of Data Type: ${typeof string}`;
+    } else if (string == "") {
+        return "String is empty";
+    }
+}
+
 module.exports = {
     getCharAt,
     concatenateStrings,
@@ -84,7 +94,7 @@ module.exports = {
     sliceString,
     splitString,
     convertToLowerCase,
-//     convertToUpperCase,
+    convertToUpperCase,
 //     trimString,
 //     replaceSubstring
 };

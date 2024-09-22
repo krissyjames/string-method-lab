@@ -40,9 +40,9 @@ const {
     ['convertToLowerCase', convertToLowerCase, '', null, 'String is empty'],
   
     // // convertToUpperCase tests (valid and invalid)
-    // ['convertToUpperCase', convertToUpperCase, 'hello', null, 'HELLO'],
-    // ['convertToUpperCase', convertToUpperCase, 12345, null, 'Value given to function was of Data Type: number'],
-    // ['convertToUpperCase', convertToUpperCase, '', null, 'String is empty'],
+    ['convertToUpperCase', convertToUpperCase, 'hello', null, 'HELLO'],
+    ['convertToUpperCase', convertToUpperCase, 12345, null, 'Value given to function was of Data Type: number'],
+    ['convertToUpperCase', convertToUpperCase, '', null, 'String is empty'],
   
     // // trimString tests (valid and invalid)
     // ['trimString', trimString, '  hello  ', null, 'hello'],
