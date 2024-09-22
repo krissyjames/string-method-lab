@@ -49,9 +49,9 @@ const {
     ['trimString', trimString, 12345, null, 'Value given to function was of Data Type: number'],
   
     // // replaceSubstring tests (valid and invalid)
-    // ['replaceSubstring', replaceSubstring, 'hello world', 'world', 'everyone', 'hello everyone'],
-    // ['replaceSubstring', replaceSubstring, 'hello world', 123, 'everyone', 'Value given to function was of Data Type: number'],
-    // ['replaceSubstring', replaceSubstring, '', 'world', 'everyone', 'String is empty']
+    ['replaceSubstring', replaceSubstring, 'hello world', 'world', 'everyone', 'hello everyone'],
+    ['replaceSubstring', replaceSubstring, 'hello world', 123, 'everyone', 'Value given to function was of Data Type: number'],
+    ['replaceSubstring', replaceSubstring, '', 'world', 'everyone', 'String is empty']
   ])('%s - should return %s for inputs (%s)', (name, func, ...params) => {
     
     const expectedResult = params.pop(); // Extract expected result from the last parameter

@@ -93,6 +93,19 @@ function trimString(string) {
         return `Value given to function was of Data Type: ${typeof string}`;
     }
 }
+
+function replaceSubstring(text, string, newString) {
+    if ((typeof text == 'string') && (text !== "") && (typeof string == 'string') && (string !== "") && (typeof newString == 'string') && (newString !== "")) {
+        return (text.replace(string, newString));
+    } else if (typeof string !== 'string') {
+        return `Value given to function was of Data Type: ${typeof string}`;
+    } else if (typeof newString !== 'string') {
+        return `Value given to function was of Data Type: ${typeof newString}`;
+    } else if ((text === "") || (string === "") || (newString === "")) {
+        return "String is empty";
+    }
+}
+
 module.exports = {
     getCharAt,
     concatenateStrings,
@@ -103,5 +116,5 @@ module.exports = {
     convertToLowerCase,
     convertToUpperCase,
     trimString,
-//     replaceSubstring
+    replaceSubstring
 };
