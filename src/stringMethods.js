@@ -41,7 +41,17 @@ function getIndexOf(string, char) {
         return `Value given to function was of Data Type: ${typeof string}`;
     } else if (typeof char !== 'string') {
         return `Value given to function was of Data Type: ${typeof char}`;
-    } else if ((string ==="") || (char ==="")) {
+    } else if ((string === "") || (char === "")) {
+        return "String is empty";
+    }
+}
+
+function sliceString(string, index1, index2) {
+    if ((typeof string === 'string') && (string !== "")) {
+        return string.slice(index1, index2);
+    } else if (typeof string !== 'string') {
+        return `Value given to function was of Data Type: ${typeof string}`;
+    } else if (string == "") {
         return "String is empty";
     }
 }
