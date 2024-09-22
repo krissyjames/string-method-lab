@@ -51,7 +51,7 @@ module.exports = {
     concatenateStrings,
     doesInclude,
     getIndexOf,
-//     sliceString,
+    sliceString,
 //     splitString,
 //     convertToLowerCase,
 //     convertToUpperCase,
