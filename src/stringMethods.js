@@ -20,8 +20,6 @@ function concatenateStrings(string1, string2) {
 }
 
 function doesInclude(string1, string2) {
-    //let string1 = string1.includes("hello world");
-    //let string2 = string.includes("world");
     let text = "hello world"
     let result1 = text.includes(string1)
     let result2 = text.includes(string2)
