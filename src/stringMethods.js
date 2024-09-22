@@ -56,13 +56,23 @@ function sliceString(string, index1, index2) {
     }
 }
 
+function splitString(string, sep) {
+    if ((typeof string === 'string') && (string !== "")) {
+        return string.split(sep);
+    } else if (typeof string !== 'string') {
+        return `Value given to function was of Data Type: ${typeof string}`;
+    } else if (string == "") {
+        return "String is empty";
+    }
+}
+
 module.exports = {
     getCharAt,
     concatenateStrings,
     doesInclude,
     getIndexOf,
     sliceString,
-//     splitString,
+    splitString,
 //     convertToLowerCase,
 //     convertToUpperCase,
 //     trimString,
