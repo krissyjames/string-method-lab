@@ -20,9 +20,9 @@ const {
     ['doesInclude', doesInclude, '', 'world', 'String is empty'],
   
     // // getIndexOf tests (valid and invalid)
-    // ['getIndexOf', getIndexOf, 'hello world', 'world', 6],
-    // ['getIndexOf', getIndexOf, 12345, 'world', 'Value given to function was of Data Type: number'],
-    // ['getIndexOf', getIndexOf, '', 'world', 'String is empty'],
+    ['getIndexOf', getIndexOf, 'hello world', 'world', 6],
+    ['getIndexOf', getIndexOf, 12345, 'world', 'Value given to function was of Data Type: number'],
+    ['getIndexOf', getIndexOf, '', 'world', 'String is empty'],
   
     // // sliceString tests (valid and invalid)
     // ['sliceString', sliceString, 'hello world', 0, 5, 'hello'],
